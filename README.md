@@ -31,7 +31,7 @@ Misturando o css e o javascript, desenvolvemos uma aba "fale conosco" onde o usu
 ## Rodapé
 Dentro do rodapé, colocamos 2 bonecos simbolizando os desenvolvedores (Ulisses e Lallier) e ao lado buttons com as redes sociais: Github, Gmail, Instagram e Facebook.
 <p align="center">
-<img src="assets/img/Demo_Rodape.gif">
+<img src="assets/img/Demo_Rodape.png">
 <p>
 
 ## Demo
