@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Talon Shoes</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-left">
+                    <img href="#" src="assets/img/logo_L.svg"  id="logo" alt="">
+                </div>
+                <div class="nav-center">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="">Marcas</a></li> 
+                        <li><a href="">Star</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Email</a></li>
+                        <input type="text" name="" id="" placeholder="Pesquisa">
+                        <img href="#" id ="SunOrMoon" src="assets/img/Sun.svg" alt="" onclick="mudaTheme()">
+                        <img href="#" id ="Store" src="assets/img/Store_L.svg" alt="">
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="slide-nike">
+                <div class="textNike">
+                    <h1 id="TituloText">Nike Air Max 90</h1>
+                    <h3 id= "Corpo">O Air Max 90 é um dos principais sneakers da família Max Air. Hoje, o Nike 90 é encontrado em
+                        várias
+                        versões e cores para atender aos mais diferentes gostos.</h3>
+                    <h2 id="Preco">R$520,00</h2>
+                    <button><h4 href="">Compre Agora</h4></button>
+                    <div class="circle_big">
+                        <img src="assets/img/Nike_Big.png" id="TenisBig" alt="">
+                        <div class="emoji">
+                            <img src="assets/img/Emoji.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-button">
+                        <div class="button1" onclick="mudaNike()">
+                            <img src="assets/img/Button_Nike.svg" alt="" >
+                        </div>
+                    </div>    
+                    <div class="slider-button">
+                        <div class="button2" onclick="mudaAdidas()">
+                            <img src="assets/img/Button_Adidas.svg" alt="">
+                        </div>
+                    </div>  
+                    <div class="slider-button">
+                        <div class="button3" onclick="mudaPuma()">
+                            <img src="assets/img/Button_Puma.svg" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="tenisMenoresNike">
+                <div class="circle_small">
+                    <div class="tenis1">
+                        <img id="Tenis1" onclick="mudaBigMin(this)" src="assets/img/Nike_1.png" alt="">
+                    </div>
+                </div>
+                <div class="circle_small">
+                    <div class="tenis2">
+                        <img id="Tenis2" onclick="mudaBigMin(this)" src="assets/img/Nike_2.png" alt="">
+                    </div>
+                </div>
+                <div class="circle_small">
+                    <div class="tenis3">
+                        <img id="Tenis3" onclick="mudaBigMin(this)" src="assets/img/Nike_3.png" alt="">
+                    </div>
+                </div>
+                <div class="circle_small">
+                    <div class="tenis4">
+                        <img id="Tenis4" onclick="mudaBigMin(this)" src="assets/img/Nike_4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider">
+        
+    </div>
+        <div class="container">
+            <form action="" class="email">
+                <h1>Fale Conosco</h1>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <div>
+                    <textarea type="text" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                </div>
+                <button onclick="EnviarMessage()" type="button"><h4 href="">Enviar</h4></button>
+            </form>
+        </div>
+        <footer>
+            <div class="rodape">
+                <div class="rodape-2">
+                    <div class="logof">
+                        <img src="assets/img/logo_D.svg" alt="" srcset="" id="logo">
+                        <div class="line"></div>
+                    </div>
+                    <div class="alunos">
+                        <div class="ulisses">
+                            <img src="assets/img/Aluno_Ulisses.svg" alt="" srcset="">
+                            <h3>Ulisses Junior</h3>
+                            <div class="img_ulisses">
+                                <div class="social_media1">
+                                    <a target="_blank" href="https://github.com/UlissesJunior"><img src="assets/img/bubble_git_D.svg" alt="" srcset="" id="imgGit"></a>
+                                </div>
+                                <div class="social_media2">
+                                    <a target="_blank" href="mailto:udp.assis@unesp.br"><img src="assets/img/bubble_gmail_D.svg" alt="" srcset="" id="imgGmail"></a>
+                                </div>
+                                <div class="social_media3">
+                                    <a target="_blank" href="https://www.instagram.com/jr__ulisses"><img src="assets/img/bubble_insta_D.svg" alt="" srcset="" id="imgInsta"></a>
+                                </div>
+                                <div class="social_media4">
+                                    <a target="_blank" href="https://www.facebook.com/ulisses.douglasdepaulaassisjunior"><img src="assets/img/bubble_face_D.svg" alt="" srcset="" id="imgFace"></a>
+                                </div>        
+                            </div>
+                        </div>
+                        <div class="lallier">
+                            <img src="assets/img/Aluno_Lallier.svg" alt="" srcset="">
+                            <h3>Lallier Pallu</h3>
+                            <div class="img_lallier">
+                                <div class="social_media1">
+                                    <a href="https://github.com/Xuxa09-code" target="_blank"><img src="assets/img/bubble_git_D.svg" alt="" srcset="" id="imgGit"></a>
+                                </div>
+                                <div class="social_media2">
+                                    <a href="mailto:lpc.faria@unesp.br" target="_blank"><img src="assets/img/bubble_gmail_D.svg" alt="" srcset="" id="imgGmail"></a>
+                                </div>
+                                <div class="social_media3">
+                                    <a href="https://www.instagram.com/lallierpallu/" target="_blank"><img src="assets/img/bubble_insta_D.svg" alt="" srcset="" id="imgInsta"></a>
+                                </div>
+                                <div class="social_media4">
+                                    <a href="https://www.facebook.com/lallier.pallu.5" target="_blank"><img src="assets/img/bubble_face_D.svg" alt="" srcset="" id="imgFace"></a>
+                                </div>                      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+         <!--FECHA MAIN-->
+    <script src="script.js"></script>
+</body>
+
+</html>

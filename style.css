@@ -1,0 +1,516 @@
+html {
+    --bg: #F7F8FD;
+    --color-text: #000;
+    --bg-tenis: #C4C4C4;
+    --cinza: #576672;
+    --bg-email: #1C1C1E; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--color-text);
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    width: 100%;
+}
+
+header li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-left {
+    margin-top: 32.69px;
+    float: left;
+}
+
+.nav-center li {
+    margin-top: 37px;
+    display: inline-block;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav-center li:first-child {
+    margin-left: 176px;
+}
+
+.nav-center li:last-child {
+    margin-right: none;
+}
+
+.nav-center input {
+    position: absolute;
+    background-color: #C4C4C4;
+    outline: none;
+    padding: 16px;
+    border-radius: 24px;
+    margin-top: 37px;
+    margin-left: 60px;
+    width: 170px;
+    height: 30px;
+}
+
+.nav-center img {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 275px;
+    cursor: pointer;
+}
+
+.nav-center img:last-child {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+.main .textNike h1 {
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    margin-top: 179px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.main .textNike h3 {
+    position: absolute;
+    width: 400px;
+    height: 165px;
+    margin-top: 268px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.main .textNike h2 {
+    position: absolute;
+    width: 270px;
+    height: 64px;
+    margin-top: 458px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.main .textNike button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 547px;
+    background: var(--cinza);
+    border-radius: 24px;
+    margin-left: -85px;
+}
+
+.main .textNike button h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F8FD;
+    text-decoration: none;
+}
+
+.circle_big {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 418px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 179px;
+    margin-left: 568px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.circle_big .emoji img{
+    position: absolute;
+    margin-top: -69px;
+    margin-left: -70px;
+
+}
+
+.imgTenisNike {
+    position: absolute;
+    margin-top: 179px;
+    margin-left: 568px;
+    z-index: 1;
+}
+
+.slider-button {
+    cursor: pointer;
+}
+
+.slider-button .button1{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 179px;
+    margin-left: 1100px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-button .button1 img{
+    margin-left: 3px;
+    margin-top: 26px;
+}
+
+.slider-button .button2{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 349px;
+    margin-left: 1100px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-button .button2 img{
+    margin-left: 6px;
+    margin-top: -4px;
+}
+
+.slider-button .button3{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 527px;
+    margin-left: 1100px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-button .button3 img{
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.tenisMenoresNike {
+    content: "";
+    position: absolute;
+    width: 1170px;
+    height: 230px;
+    margin-top: 700px;
+    background: var(--bg-tenis);
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.circle_small .tenis1 {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 15.77px;
+    margin-left: 66px;
+}
+
+.circle_small .tenis1 img:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    transform: translateY(-25px);
+}
+
+.circle_small .tenis2 {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 15.77px;
+    margin-left: 345px;
+}
+
+.circle_small .tenis2 img:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    transform: translateY(-25px);
+}
+
+.circle_small .tenis3 {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 15.77px;
+    margin-left: 624px;
+}
+
+.circle_small .tenis3 img:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    transform: translateY(-25px);
+}
+
+.circle_small .tenis4 {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: var(--cinza);
+    margin-top: 15.77px;
+    margin-left: 903px;
+}
+
+
+.circle_small .tenis4 img:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    transform: translateY(-25px);
+}
+
+.divider {
+    margin-top: 983px;
+    position: absolute;
+    width: 100%;
+    height: 142px;
+    background: var(--bg-email);
+    z-index: -1;
+}
+
+.email {
+    content: "";
+    position: absolute;
+    width: 1170px;
+    height: 663px;
+    margin-top: 1178px;
+    margin-bottom: 53px;
+    border-radius: 12px;
+    background: var(--bg-email);
+}
+
+.email h1 {
+    position: absolute;
+    width: 100%;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #F7F8FD;
+}
+
+.email input {
+    position: absolute;
+    width: 470px;
+    height: 55px;
+    margin-top: 143px;
+    margin-left: 83px;
+    background: #F7F8FD;
+    border-radius: 6px;
+    outline: none;
+    padding: 16px;
+}
+
+.email input[type=email] {
+    position: absolute;
+    background: #F7F8FD;
+    margin-left: 585px;
+    border-radius: 6px;
+
+}
+
+.email textarea {
+    position: absolute;
+    width: 970px;
+    height: 256px;
+    margin-left: 83px;
+    margin-top: 251px;
+    background: #F7F8FD;
+    border-radius: 6px;
+    outline: none;
+    padding: 16px;
+}
+
+.email button {
+    position: absolute;
+    background: var(--cinza);
+    border-radius: 24px;
+    margin-left: 383px;
+    margin-top: 560px;
+    width: 370px;
+    height: 50px;
+}
+
+.email button h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F8FD;
+    text-decoration: none;
+}
+
+.rodape {
+    width: 100%;
+    content: "";
+    position: absolute;
+    background: var(--bg-email);
+    height: 200px;
+    margin-top: 1959px;
+}
+
+.rodape-2 {
+    max-width: 1170px;
+    width: 1170px;
+    margin: auto;
+    background: var(--bg-email);
+    height: 200px;
+}
+
+.rodape-2 .logof img{
+    position: absolute;
+    margin-top: 69px;
+}
+
+.logof .line {
+    content: "";
+    position: absolute;
+    background: #F7F8FD;
+    height: 2px;
+    width: 140px;
+    margin-left: 60px;
+    margin-top: 100px;
+    transform: rotate(90deg);
+}
+
+.ulisses img {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.ulisses {
+    width: 50%;
+    float: left;
+}
+.lallier {
+    width: 50%;
+    float: right;
+}
+.ulisses h3 {
+    position: absolute;
+    width: 155px;
+    height: 33px;
+    margin-left: 420px;
+    margin-top: -145px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #F7F8FD;
+}
+
+.img_ulisses .social_media1 {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -135px;
+    z-index: 1;
+}
+
+.img_ulisses .social_media2 {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -135px;
+}
+
+.img_ulisses .social_media3 {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -75px;
+    z-index: 1;
+}
+
+.img_ulisses .social_media4 {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -75px;
+}
+
+.lallier img {
+    margin-left: 200px;
+    margin-top: 32px;
+}
+
+.lallier h3 {
+    position: absolute;
+    width: 155px;
+    height: 33px;
+    margin-left: 315px;
+    margin-top: -145px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #F7F8FD;
+}
+
+.lallier .social_media1 {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -135px;
+    z-index: 1;
+}
+
+.img_lallier .social_media2 {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -135px;
+}
+
+.img_lallier .social_media3 {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -75px;
+    z-index: 1;
+}
+
+.img_lallier .social_media4 {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -75px;
+}
